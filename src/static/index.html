@@ -37,6 +37,45 @@
           </div>
           <button type="submit">Sign Up</button>
         </form>
+      </section>
+
+      <section id="activity-actions-container">
+        <h3>Activity Actions</h3>
+        <form id="favorite-form">
+          <div class="form-group">
+            <label for="favorite-email">Student Email:</label>
+            <input type="email" id="favorite-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="favorite-activity">Activity:</label>
+            <select id="favorite-activity" required>
+              <option value="">-- Select an activity --</option>
+            </select>
+          </div>
+          <button type="submit">Toggle Favorite</button>
+        </form>
+
+        <form id="attendance-form">
+          <div class="form-group">
+            <label for="attendance-email">Student Email:</label>
+            <input type="email" id="attendance-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="attendance-activity">Activity:</label>
+            <select id="attendance-activity" required>
+              <option value="">-- Select an activity --</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="attendance-status">Attendance Status:</label>
+            <select id="attendance-status" required>
+              <option value="">-- Select status --</option>
+              <option value="present">Present</option>
+              <option value="absent">Absent</option>
+            </select>
+          </div>
+          <button type="submit">Record Attendance</button>
+        </form>
         <div id="message" class="hidden"></div>
       </section>
     </main>
