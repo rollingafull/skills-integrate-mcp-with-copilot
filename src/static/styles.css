@@ -164,6 +164,22 @@ button:hover {
   background-color: #3949ab;
 }
 
+.activity-actions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.activity-actions-container form {
+  margin-bottom: 15px;
+}
+
+.small-info {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
 .message {
   margin-top: 20px;
   padding: 10px;
